@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Notification-Service" />
+        <module name="ConfigServer" />
+        <module name="Student" />
+        <module name="Subject" />
+        <module name="ApiGateWay" />
+        <module name="Service-Registry" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ApiGateWay" options="-parameters" />
+      <module name="ConfigServer" options="-parameters" />
+      <module name="Notification-Service" options="-parameters" />
+      <module name="Service-Registry" options="-parameters" />
+      <module name="Student" options="-parameters" />
+      <module name="Subject" options="-parameters" />
+    </option>
+  </component>
+</project>
